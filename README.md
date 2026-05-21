@@ -63,6 +63,40 @@ On the current train/test split, Random Forest was selected as the best model:
 - Random Forest rain-class recall: 0.65
 - Random Forest rain-class F1-score: 0.71
 
+## Visualisations
+
+The project generates exploratory and model-evaluation visualisations in the `outputs/` directory.
+
+### Rain Tomorrow Distribution
+
+Shows the class balance between days with no rain tomorrow and days with rain tomorrow.
+
+![Rain Tomorrow Distribution](outputs/rain_distribution.png)
+
+### Feature Correlation Heatmap
+
+Shows relationships between weather features and the `rain_tomorrow` target.
+
+![Feature Correlation Heatmap](outputs/correlation_heatmap.png)
+
+### Confusion Matrix
+
+Shows how many test records were correctly or incorrectly classified as rain / no rain.
+
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+### ROC Curve
+
+Shows the trade-off between true positive rate and false positive rate across classification thresholds.
+
+![ROC Curve](outputs/roc_curve.png)
+
+### Feature Importance
+
+Shows which features contributed most to the selected Random Forest model.
+
+![Feature Importance](outputs/feature_importance.png)
+
 ## How to Run
 
 Create and activate a virtual environment:
