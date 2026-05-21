@@ -1,7 +1,6 @@
-# Weather Rain Prediction
+# RainTomorrow-ML
 
 This project builds a machine learning pipeline to predict whether it will rain tomorrow using historical daily weather observations.
-
 The dataset combines daily minimum temperature, maximum temperature, rainfall, and sunshine records into a binary classification target: `rain_tomorrow`.
 
 ## Project Highlights
@@ -110,4 +109,3 @@ Generated plots will be saved in `outputs/`.
 ## Example Use Case
 
 The trained model can estimate the probability of rain tomorrow from a small set of daily weather inputs such as temperature, rainfall, sunshine, rain-today status, and month.
-
